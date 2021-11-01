@@ -1,0 +1,40 @@
+
+
+.header-image {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer div {
+    margin: 1em;
+  }
+  
+  #footer-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .github-logo {
+    font-size: 1.3em;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+
+  .footer-copyright {
+      color: white;
+  }
