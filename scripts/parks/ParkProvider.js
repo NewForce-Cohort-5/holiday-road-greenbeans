@@ -1,6 +1,8 @@
+
+
 let parks = []
 
-export const useparks = () => {
+export const useParks = () => {
     return parks.slice()
     }
 
@@ -8,6 +10,7 @@ export const useparks = () => {
         return fetch("https://developer.nps.gov/api/v1/parks?api_key=O3K5fR1F3SpqJUoCdSyx27vCGS7Fk6DYqobuiSM4")
         .then(dirtyParks => dirtyParks.json())
         .then (cleanParks => {
-            parks = cleanParks
+            console.table(cleanParks)
+            parks = cleanParks.data
         })
     }
