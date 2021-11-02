@@ -1,7 +1,7 @@
 export const park = (parkObject) => {
     return`
     <section class="parkCard">
-    ${parkObject.fullName}
+    <h3 class="fullName">${parkObject.fullName}</h3>
     </section>`
 }
 

@@ -1,18 +1,28 @@
 import { useParks, getParks } from "./ParkProvider.js"
 import { park } from "./Park.js";
+import { parkSelect } from "./ParkSelect.js";
 
-const contentTarget = document.querySelector("#parkFilter")
+const contentTarget = document.querySelector("#parkPrintList")
 
-export const parkList = () => {
+export const parkList = (parkSelected) => {
+    
+     let parkHTML = "";
+
     getParks()
     .then(() => {
         let parkArray = useParks();
 
-        let parkHTML = "";
+      if(parkSelected ) {
+          parkArray = parkArray.filter(singleParkObject => {
+              return singleParkObject.fullName === parkSelected
+          })
+      }
 
         parkArray.forEach((singleParkObject) => {
             parkHTML += park(singleParkObject);
         })
-        contentTarget.innerHTML = `<h2>National Parks</h2><div>${parkHTML}</div>`
+
+        
+        contentTarget.innerHTML = `<h1>Itinerary:</h1><div>${parkHTML}</div>`
     });
 };

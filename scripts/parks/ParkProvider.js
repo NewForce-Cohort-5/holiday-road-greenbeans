@@ -1,4 +1,5 @@
 
+import { settings } from "../Settings.js"
 
 let parks = []
 
@@ -7,7 +8,7 @@ export const useParks = () => {
     }
 
     export const getParks = () => {
-        return fetch("https://developer.nps.gov/api/v1/parks?api_key=O3K5fR1F3SpqJUoCdSyx27vCGS7Fk6DYqobuiSM4")
+        return fetch(settings.npsKey)
         .then(dirtyParks => dirtyParks.json())
         .then (cleanParks => {
             console.table(cleanParks)
