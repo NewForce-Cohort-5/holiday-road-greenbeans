@@ -12,7 +12,7 @@ export const parkList = (parkSelected) => {
     .then(() => {
         let parkArray = useParks();
 
-      if(parkSelected ) {
+      if(parkSelected) {
           parkArray = parkArray.filter(singleParkObject => {
               return singleParkObject.fullName === parkSelected
           })
