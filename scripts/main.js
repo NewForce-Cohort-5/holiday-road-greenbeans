@@ -6,6 +6,7 @@ import { parkList } from "./parks/ParkList.js"
 import { parkSelect } from "./parks/ParkSelect.js"
 import { EateryList } from "./eateries/EateryList.js"
 import { EaterySelect } from "./eateries/EaterySelect.js"
+import {ADetailButton} from "./attractions/AttractionDetail.js"
 
 
 Header();
@@ -17,19 +18,3 @@ parkSelect()
 EaterySelect();
 
 
-const ADetailButton = document.querySelector("body")
-
-
-ADetailButton.addEventListener("click", (eventObject) => {
-
-
-    if(eventObject.target.id === "AttractionButton"){
-        
-
-       
-        
-        document.querySelector("#DetailsID").classList.toggle("hiddenDetails")
-       
-    
-    }
-})
