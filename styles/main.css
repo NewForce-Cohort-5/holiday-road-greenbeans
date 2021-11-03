@@ -42,3 +42,11 @@ footer {
   .footer-copyright {
       color: white;
   }
+
+  .hidden {
+    display: none;
+  }
+
+  /* #parkDetailButton {
+    display: none;
+  } */
