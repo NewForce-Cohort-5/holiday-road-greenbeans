@@ -4,8 +4,11 @@ export const attractionCard = (Object) => {
                 <h3>${Object.name}</h3>
                 <p>State: ${Object.state}</p>
                 <p>City: ${Object.city}</p>
-                <p>Description: ${Object.description}</p>
-                <button class="AttractionDetails">Details</button>
+                <button class="button" id="AttractionButton">Details</button>
+                <div id="DetailsID" class = "hiddenDetails">                
+                <div class="description">Description: ${Object.description}</div>
+                
+
                 
                 </div>
     `

@@ -15,3 +15,21 @@ AttractionSelect()
 
 parkSelect()
 EaterySelect();
+
+
+const ADetailButton = document.querySelector("body")
+
+
+ADetailButton.addEventListener("click", (eventObject) => {
+
+
+    if(eventObject.target.id === "AttractionButton"){
+        
+
+       
+        
+        document.querySelector("#DetailsID").classList.toggle("hiddenDetails")
+       
+    
+    }
+})

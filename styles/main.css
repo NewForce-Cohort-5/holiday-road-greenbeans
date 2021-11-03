@@ -42,3 +42,7 @@ footer {
   .footer-copyright {
       color: white;
   }
+
+  .hiddenDetails{
+    display: none;
+  }
