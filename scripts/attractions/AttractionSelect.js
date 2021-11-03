@@ -1,7 +1,7 @@
 import {AttractionList} from "./AttractionList.js"
 import { getAttraction, useAttraction } from "./AttractionProvider.js"
 
-const contentTarget = document.querySelector(".attractionsFilter")
+const contentTarget = document.querySelector("#PrintAttraction")
 
 export const AttractionSelect = () => {
     
