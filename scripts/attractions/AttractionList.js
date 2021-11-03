@@ -11,13 +11,12 @@ export const AttractionList = (attractionSelected) => {
       let AttractionArray = useAttraction();  
       let AttractionHTML = "" ;
 
-  // If we get input from the convictions filter, filter our criminals so that we only see ones with that conviction
+  
   if(attractionSelected){
     
     AttractionArray = AttractionArray.filter(singleAttractionInLoop => {
-      return singleAttractionInLoop.bizarraries === attractionSelected
-    // write the condition here to filter for criminals whose crime matches the convictionFilter value
-    // the line above is to go through and filter the array through the convictions of the criminals to match the selected item crimeSelected
+      return singleAttractionInLoop.name === attractionSelected
+    
     })
 
   }
@@ -27,7 +26,7 @@ export const AttractionList = (attractionSelected) => {
   
       })
   
-      contentAttraction.innerHTML = `Something ${AttractionHTML}`
+      contentAttraction.innerHTML = `${AttractionHTML}`
   
     });
   };
