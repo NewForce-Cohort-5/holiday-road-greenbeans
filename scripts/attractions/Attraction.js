@@ -5,6 +5,7 @@ export const attractionCard = (Object) => {
                 <p>State: ${Object.state}</p>
                 <p>City: ${Object.city}</p>
                 <p>Description: ${Object.description}</p>
+                <button class="AttractionDetails">Details</button>
                 
                 </div>
     `
