@@ -5,9 +5,12 @@
     height: 100px;
     margin: 25px;
 }
-
+main{
+  border: 1px solid black;
+}
 aside {
   float: right;
+  border: 1px solid black;
 }
 
 
