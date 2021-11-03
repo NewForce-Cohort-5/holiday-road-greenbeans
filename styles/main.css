@@ -6,6 +6,10 @@
     margin: 25px;
 }
 
+aside {
+  float: right;
+}
+
 
 footer {
     display: flex;
