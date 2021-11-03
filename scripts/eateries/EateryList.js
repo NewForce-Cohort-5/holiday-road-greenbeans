@@ -3,10 +3,10 @@ import { getEateries, useEateries } from "./EateryProvider.js"
 import { EaterySelect } from "./EaterySelect.js";
 
 
-const contentTarget = document.querySelector(".eatery-list")
+const contentTarget = document.querySelector("#eateryPrintList")
 
 
-document.querySelector(".filtersEateries").addEventListener("change", () => {
+document.querySelector("#filtersEateries").addEventListener("change", () => {
   EateryList()
 }) 
 
