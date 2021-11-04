@@ -7,6 +7,8 @@ export const attractionCard = (Object) => {
                 <button class="button" id="AttractionButton">Details</button>
                 <div id="DetailsID" class = "hiddenDetails">                
                 <div class="description">Description: ${Object.description}</div>
+                ${Object.ameneties.souvenirs ? `<li>Souvenirs</li>` : ""}
+                ${Object.ameneties.restrooms ? `<li>Restrooms</li>` : ""}
                 
 
                 
