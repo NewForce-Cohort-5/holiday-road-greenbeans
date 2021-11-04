@@ -2,7 +2,7 @@
 import { useEateries, getEateries } from "./EateryProvider.js";
 import { EateryList } from "./EateryList.js";
 
-const contentTarget = document.querySelector(".filtersEateries");
+const contentTarget = document.querySelector("#filtersEateries");
 const eventHub = document.querySelector("body");
 
 export const EaterySelect = () => {
@@ -20,8 +20,9 @@ eventHub.addEventListener("change", (eateryObj) => {
         if(eateryObj.target.id === "eateriesSelect"){
             console.log("You Selected something")
             console.log("Your Selection is: ", eateryObj.target.value)
+            EateryList(eateryObj.target.value)
         }
-        EateryList(eateryObj.target.value)
+        
     
 })
 
