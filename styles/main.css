@@ -49,10 +49,11 @@ footer {
       color: white;
   }
 
+  .hiddenDetails{
+    display: none;
+  }
   .hidden {
     display: none;
   }
 
-  /* #parkDetailButton {
-    display: none;
-  } */
+
