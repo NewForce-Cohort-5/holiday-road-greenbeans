@@ -5,9 +5,13 @@
     height: 100px;
     margin: 25px;
 }
-
+main{
+  border: 1px solid black;
+  margin-bottom: 10%;
+}
 aside {
   float: right;
+  border: 1px solid black;
 }
 
 
@@ -46,3 +50,8 @@ footer {
   .hiddenDetails{
     display: none;
   }
+  .hidden {
+    display: none;
+  }
+
+

@@ -23,6 +23,6 @@ export const parkList = (parkSelected) => {
         })
 
         
-        contentTarget.innerHTML = `<h1>Itinerary:</h1><div>${parkHTML}</div>`
+        contentTarget.innerHTML = `<h3>National Parks: </h3><div>${parkHTML}</div>`
     });
 };
