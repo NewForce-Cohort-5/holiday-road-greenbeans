@@ -19,4 +19,6 @@ detailButton.addEventListener("click", clickEvent => {
     
   })
  
+
+  //.join and .map 
     

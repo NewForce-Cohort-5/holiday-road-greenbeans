@@ -16,7 +16,7 @@ export const parkSelect = () => {
 
 
 const render = parkCollection => {
-    contentTarget.innerHTML = `<h2>National Parks</h2><select class="dropDown" id="parkSelect">
+    contentTarget.innerHTML = `<h1>Your Itinerary</h1><select class="dropDown" id="parkSelect">
     <option value="0">Please Select Park...</option>
     ${
         parkCollection.map(parkObject => {
