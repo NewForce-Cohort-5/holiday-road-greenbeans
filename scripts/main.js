@@ -7,15 +7,18 @@ import { parkSelect } from "./parks/ParkSelect.js"
 import { EateryList } from "./eateries/EateryList.js"
 import { EaterySelect } from "./eateries/EaterySelect.js"
 import { detailButton } from "./parks/ParkDetail.js"
+import { deatilButton } from "./eateries/EateryDeatil.js";
+
+
 
 
 
 Header();
 Footer();
 
-AttractionSelect()
+AttractionSelect();
 
-parkSelect()
+parkSelect();
 EaterySelect();
 
 // eventHub();
