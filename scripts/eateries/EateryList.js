@@ -18,11 +18,7 @@ export const EateryList = (eaterySelected) => {
 
     let eateryArray = useEateries();
 
-//     eateryHTML += `
-//     <section class="eateries">
-//     <h2>Eateries</h2>
-//     <div class="eatery-list flex-container">
-// `;
+
 if(eaterySelected){
     eateryArray = eateryArray.filter(eateryObj => {
         return eateryObj.businessName === eaterySelected
@@ -32,14 +28,10 @@ if(eaterySelected){
 eateryArray.forEach((eateryObj) => {
  eateryHTML += Eatery(eateryObj)   
 });
-    //    eateryHTML += `
-    //    </div>
-    //    </section>
-    //    `
-
+  
     contentTarget.innerHTML = `
     <section class="eateries">
-    <h2>Eateries</h2>
+    <h2>Eateries:</h2>
     <div class="eatery-list flex-container">${eateryHTML}</div>
     </section>
     `

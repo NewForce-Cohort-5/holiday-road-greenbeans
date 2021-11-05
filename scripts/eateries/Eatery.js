@@ -2,19 +2,19 @@ export const Eatery = (eateries)=> {
     return `
     <section class="eatery-card">
     
-    <h3 class="business__name"> ${eateries.businessName}</h3>
+    <h3 id="business__name"> ${eateries.businessName}</h3>
     <p class="business__location"> ${eateries.city}, ${eateries.state}</p>
-    <button type="button" class="btn btn-dark btn-outline-light " id="eateryButton">Details</button>
+    <button type="button" class="btn btn-dark btn-outline-light" id="eateryButton">Details</button>
     <div id="eateryDetails" class="hidden">
     <p>${eateries.description}</p>
-   <ul>
-    ${eateries.ameneties.wheelchairAccessible ? `<li>Wheelchair Accessible</li>` : ""}
-   ${eateries.ameneties.petFriendly ? `<li>Pet Friendly</li>` : ""}
-   ${eateries.ameneties.wifi ? `<li>wifi</li>` : ""}
-   ${eateries.ameneties.diaperFacility ? `<li>Diaper Facility</li>` : ""}
-   ${eateries.ameneties.playground ? `<li>Playground</li>` : ""}
-   ${eateries.ameneties.restrooms ? `<li>Restrooms</li>` : ""}
-   </ul>
+   <section class="icon-container">
+    ${eateries.ameneties.wheelchairAccessible ? `<i class="fab fa-accessible-icon"></i>` : ""}
+   ${eateries.ameneties.petFriendly ? `<i class="fas fa-dog"></i>` : ""}
+   ${eateries.ameneties.wifi ? `<i class="fas fa-wifi"></i>` : ""}
+   ${eateries.ameneties.diaperFacility ? `<i class="fas fa-baby"></i>` : ""}
+   ${eateries.ameneties.playground ? `<i class="fas fa-child"></i>` : ""}
+   ${eateries.ameneties.restrooms ? `<i class="fas fa-restroom"></i>` : ""}
+   </section>
     </div>
     </section>
     `

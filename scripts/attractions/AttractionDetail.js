@@ -6,7 +6,7 @@ export const ADetailButton = document.querySelector("body")
 
 ADetailButton.addEventListener("click", (eventObject) => {
 const buttonID = eventObject.target.id.split("-")[1]
-console.log(buttonID)
+// console.log(buttonID)
 
     if(buttonID){
         
