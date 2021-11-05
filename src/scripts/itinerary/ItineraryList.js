@@ -17,13 +17,14 @@ export const ItineraryList = () => {
     });
 
     contentTarget.innerHTML += `
+    <div class="grid-box">
     <h2>Itinerary</h2>
-    ${itineraryHTML}`
+    ${itineraryHTML}</div>`
 
   });
 };
 
-const newDestination = document.querySelector("aside")
+const newDestination = document.querySelector("body")
 
 
 

@@ -61,22 +61,16 @@
       "id": 10
     },
     {
-      "park": "Park: Acadia National Park",
-      "attraction": "World’s Largest ‘Gone With the Wind’ Collection",
-      "eatery": " H&amp;H Soul Food",
+      "park": "Park: Abraham Lincoln Birthplace National Historical Park",
+      "attraction": "Owney the Stuffed Dog Postal Mascot",
+      "eatery": " The Cozy Inn",
       "id": 11
     },
     {
-      "park": "Park: Adams National Historical Park",
-      "attraction": "White House Replica",
-      "eatery": " Gene &amp; Jude's",
+      "park": "Park: Abraham Lincoln Birthplace National Historical Park",
+      "attraction": "Cabazon Dinosaurs",
+      "eatery": " H&amp;H Soul Food",
       "id": 12
-    },
-    {
-      "park": "Park: Acadia National Park",
-      "attraction": "World’s Largest ‘Gone With the Wind’ Collection",
-      "eatery": " Hudson's Hamburgers",
-      "id": 13
     }
   ]
 }
