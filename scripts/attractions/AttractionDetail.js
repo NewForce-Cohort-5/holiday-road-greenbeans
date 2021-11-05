@@ -5,14 +5,15 @@ export const ADetailButton = document.querySelector("body")
 
 
 ADetailButton.addEventListener("click", (eventObject) => {
+const buttonID = eventObject.target.id.split("-")[1]
+console.log(buttonID)
 
-
-    if(eventObject.target.id === "AttractionButton"){
+    if(buttonID){
         
 
        
         
-        document.querySelector("#DetailsID").classList.toggle("hiddenDetails")
+        document.querySelector(`#DetailsID-${buttonID}`).classList.toggle("hiddenDetails")
        
     
     }

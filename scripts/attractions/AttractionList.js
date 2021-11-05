@@ -26,7 +26,7 @@ export const AttractionList = (attractionSelected) => {
   
       })
   
-      contentAttraction.innerHTML = `${AttractionHTML}`
+      contentAttraction.innerHTML += `${AttractionHTML}`
   
     });
   };
