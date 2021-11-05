@@ -4,6 +4,8 @@ import { parkSelect } from "./ParkSelect.js";
 
 const contentTarget = document.querySelector("#parkPrintList")
 
+
+
 export const parkList = (parkSelected) => {
     
      let parkHTML = "";

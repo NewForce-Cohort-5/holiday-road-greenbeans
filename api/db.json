@@ -65,6 +65,18 @@
       "attraction": "World’s Largest ‘Gone With the Wind’ Collection",
       "eatery": " H&amp;H Soul Food",
       "id": 11
+    },
+    {
+      "park": "Park: Adams National Historical Park",
+      "attraction": "White House Replica",
+      "eatery": " Gene &amp; Jude's",
+      "id": 12
+    },
+    {
+      "park": "Park: Acadia National Park",
+      "attraction": "World’s Largest ‘Gone With the Wind’ Collection",
+      "eatery": " Hudson's Hamburgers",
+      "id": 13
     }
   ]
 }
