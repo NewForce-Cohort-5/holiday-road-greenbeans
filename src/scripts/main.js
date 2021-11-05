@@ -15,7 +15,6 @@ import { ItineraryList } from "./itinerary/ItineraryList.js";
 
 
 
-
 Header();
 Footer();
 
@@ -24,8 +23,6 @@ AttractionSelect();
 parkSelect();
 EaterySelect();
 ItineraryForm();
-
-
-
+ItineraryList();
 
  

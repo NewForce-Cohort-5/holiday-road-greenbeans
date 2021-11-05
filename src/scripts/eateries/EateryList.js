@@ -6,10 +6,6 @@ import { EaterySelect } from "./EaterySelect.js";
 const contentTarget = document.querySelector("#eateryPrintList")
 
 
-document.querySelector("#filtersEateries").addEventListener("change", () => {
-  EateryList()
-}) 
-
 
 export const EateryList = (eaterySelected) => {
   let eateryHTML = '';
@@ -29,7 +25,7 @@ eateryArray.forEach((eateryObj) => {
  eateryHTML += Eatery(eateryObj)   
 });
   
-    contentTarget.innerHTML = `
+    contentTarget.innerHTML += `
     <section class="eateries">
     <h2>Eateries:</h2>
     <div class="eatery-list flex-container">${eateryHTML}</div>
