@@ -10,6 +10,7 @@ import {ADetailButton} from "./attractions/AttractionDetail.js"
 import { detailButton } from "./parks/ParkDetail.js"
 import { deatilButton } from "./eateries/EateryDeatil.js";
 import { ItineraryForm } from "./itinerary/ItineraryForm.js";
+import { ItineraryList } from "./itinerary/ItineraryList.js";
 
 
 
@@ -23,6 +24,7 @@ AttractionSelect();
 parkSelect();
 EaterySelect();
 ItineraryForm();
+
 
 
 

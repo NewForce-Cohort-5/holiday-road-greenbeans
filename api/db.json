@@ -1,11 +1,34 @@
 {
-	"itineraries": [
-		{
-			"id" : 1,
-			"date":"",
-			"park":"",
-			"eatery":"",
-			"attraction":""
-		}
-	]
+  "itineraries": [
+    {
+      "park": "Park: Abraham Lincoln Birthplace National Historical Park",
+      "attraction": "White House Replica",
+      "eatery": " Hy's Steak House",
+      "id": 1
+    },
+    {
+      "park": "Park: Adams National Historical Park",
+      "attraction": "Giant Abraham Lincoln",
+      "eatery": " St. Elmo Steak House",
+      "id": 2
+    },
+    {
+      "park": "Park: Acadia National Park",
+      "attraction": "Mini Statue of Liberty",
+      "eatery": " Club Paris",
+      "id": 3
+    },
+    {
+      "park": "Park: Acadia National Park",
+      "attraction": "World’s Most Scenic Urinal",
+      "eatery": " H&amp;H Soul Food",
+      "id": 4
+    },
+    {
+      "park": "Park: Acadia National Park",
+      "attraction": "World’s Largest ‘Gone With the Wind’ Collection",
+      "eatery": " The Cozy Inn",
+      "id": 5
+    }
+  ]
 }

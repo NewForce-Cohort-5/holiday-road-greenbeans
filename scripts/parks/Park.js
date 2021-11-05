@@ -2,7 +2,7 @@ export const park = (parkObject) => {
     return`
     <section class="parkCard">
     <button type="button" id="detailButtonPark" class="btn btn-dark btn-outline-light">Details</button>
-    <h3 class="fullName">Park: ${parkObject.fullName}</h3>
+    <h3 id="fullName">Park: ${parkObject.fullName}</h3>
     <div class="state">City and State: ${parkObject.addresses[1].city}, ${parkObject.addresses[1].stateCode}</div>
     
     <div class="hidden"
