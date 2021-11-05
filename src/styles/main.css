@@ -59,6 +59,22 @@ main{
   margin: 15px 0;
 
 }
+
+.print-itinerary{
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: auto;
+	grid-gap: 10px 10px;
+}
+.itinerary-card{
+	display: grid;
+	border: 1px dotted grey;
+	
+}
+aside{
+  text-align: center;
+  
+}
 footer {
     display: flex;
     justify-content: center;
